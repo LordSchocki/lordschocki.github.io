@@ -1,0 +1,38 @@
+.header1 {
+    display: flex;
+    justify-content: flex-end;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(pictures/banner.jpg) ;
+    background-color: aquamarine;
+    background-size: cover;
+    
+    
+}
+
+#about{
+    justify-content: flex-end;
+    align-self: flex-end;
+    
+}
+
+#überschrift1{
+    align-self: center;
+    font-family: "Caveat",sans-serif;
+    font-size: 60px;
+    
+}
+
+body {
+    margin: 0px;
+    background: rgb(81,168,106);
+    background: radial-gradient(circle, rgba(81,168,106,1) 0%, rgba(49,124,5,1) 100%);
+}
+
+#linkContainer1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
